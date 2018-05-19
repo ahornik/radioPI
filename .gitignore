@@ -6,6 +6,9 @@
 build/
 DerivedData/
 
+#MacOS  "Not" Useful Files
+.DS_Store
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
