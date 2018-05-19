@@ -1,0 +1,44 @@
+<html>
+    <head>
+    
+    </head>
+    
+    <body>
+    <br>
+    <h3> A quoi sert cette application ?</h3>
+        <div align="justify">
+            Cette application a &eacute;t&eacute; d&eacute;velopp&eacute;e pour piloter &agrave; distance un Raspberry Pi connect&eacute; &agrave; une chaine st&eacute;r&eacute;o. Vous trouverez cette application particuli&egrave;rement utile si vous souhaitez &eacute;couter une radio sans mobiliser le t&eacute;l&eacute;phone (la communication entre le Pi et le t&eacute;l&eacute;phone ne sert qu'&agrave; envoyer l'URL de la radio ; le Pi est ind&eacute;pendant du t&eacute;l&eacute;phone pour la diffusion du son sur sa sortie audio).</div>
+        <h3> Comment utiliser l'application ?</h3>
+        <div align="justify">
+            <ul>
+                <li>S&eacute;lectionner une cat&eacute;gorie de radio</li>
+                <li>La liste de radios se met &agrave; jour</li>
+                <li>S&eacute;lectionner la radio</li>
+                <li>Appuyer sur le bouton "play"</li>
+                <li>Pour r&eacute;gler le volume, balayer l'&eacute;cran vers la droite</li>
+                <li>Pour la configuration d&eacute;taill&eacute;e voir les explications ci-dessous</li>
+            </ul></div>
+<h3> Comment configurer le Pi ? </h3>
+        Pour pouvoir utiliser cette application, vous devrez :
+        <ul>
+            <li><div align="justify">Connecter la sortie audio du Pi &agrave; un amplificateur (cha&icirc;ne st&eacute;r&eacute;o, ...)
+            <li> <div align="justify">Connecter votre Raspberry Pi &agrave; votre r&eacute;seau local</div></li>
+            <li> <div align="justify">Conna&icirc;tre l'adresse tcpip de votre raspberry Pi (en utilisant par exemple la commande "ifconfig -a" dans un terminal lanc&eacute; sur le Pi ; souvent de type 192.168.1.xxx)</div></li>
+            <li> <div align="justify">Lancer sur le Pi un serveur &eacute;coutant sur le port 10000 (un exemple de serveur est donn&eacute; sur l'URL suivante : <a href=http://www.hornik.fr/RadioPi>http://www.hornik.fr/RadioPi</a>)</div></li>
+            <li> <div align="justify">
+Configurer l'application RadioPi sur le t&eacute;l&eacute;phone avec l'adresse du Pi (balayer l'&eacute;cran vers la droite jusqu'&agrave; faire apparaitre la configuration, mettre &agrave; jour l'adresse du Pi et sauver. )</div></li>
+            <li><div align="justify">
+                Il est possible (mais non trivial) d'&eacute;diter la liste des radios. Pour cela il faut <ul> <li>Connecter le t&eacute;l&eacute;phone &agrave; iTune, <li>Cliquer sur Apps <li>Dans la deuxi&egrave;me partie de l'&eacute;cran vous pourrez voir une table contenant les application aptes au "File Sharing" (partage de fichiers)<li>S&eacute;lectionez RadioPi vous pourrez voir un fichier appel&eacute; RadioList.xml. Ce fichier contient la description des cat&eacute;gories, des radios et les Urls correspondantes. si vous &eacute;ditez ce fichier sur votre PC (drag&drop du fichier, puis utilisation d'un &eacute;diteur de texte basique) vous pourrez changer la configuration, la liste des radios, etc ... </ul> <b>Note :</b>  les cat&eacute;gories ne sont pas &eacute;ditables e.g. si vous introduisez une nouvelle cat&eacute;gorie, ou si vous modifiez l'orthographe d'une cat&eacute;gorie, les radios de cette cat&eacute;gories seront ignor&eacute;es.<i> A corriger dans une version future.</i>
+                </ul>
+
+    <h3> Comment fonctionne RadioPi ? </h3>
+    <div align="justify"> L'application dispose en m&eacute;moire d'une liste non-exhaustive d'URL permettant d'&eacute;couter des Radios, tri&eacute;es par cat&eacute;gorie, et transmet ces URLs au Raspberry Pi.
+     L'application IOS envoie au Raspberry Pi l'URL s&eacute;lectionn&eacute;e en appuyant sur le bouton play. Il faut avoir install&eacute; sur le Raspberry Pi, un serveur (donn&eacute &agrave; titre d'exemple sur le site www.hornik.fr).
+     Ce serveur (qui peut facilement &ecirc;tre &eacute;crit en python par exemple) attendra sur le port 10000, sur le r&eacute;seau local et ex&eacute;cutera les commandes re&ccedil;ues.
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    </body>
+</html>
