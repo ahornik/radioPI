@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		120142221E04B5640065903E /* Retour.png in Resources */ = {isa = PBXBuildFile; fileRef = 120142211E04B5630065903E /* Retour.png */; };
+		1201424B1E05806B0065903E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 1201424A1E05806B0065903E /* index.html */; };
+		1256F1E11DC5EF0900491C7A /* Vol+.png in Resources */ = {isa = PBXBuildFile; fileRef = 1256F1DE1DC5EF0900491C7A /* Vol+.png */; };
+		1256F1E21DC5EF0900491C7A /* Vol-.png in Resources */ = {isa = PBXBuildFile; fileRef = 1256F1DF1DC5EF0900491C7A /* Vol-.png */; };
+		1256F1E51DC5EF2200491C7A /* ON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1256F1E41DC5EF2200491C7A /* ON.png */; };
+		1256F1E71DC5EF2E00491C7A /* Radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 1256F1E61DC5EF2E00491C7A /* Radio.png */; };
+		1259AE6B1CB981AA00F67209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AE6A1CB981AA00F67209 /* Foundation.framework */; };
+		1259AE6D1CB981AA00F67209 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AE6C1CB981AA00F67209 /* CoreGraphics.framework */; };
+		1259AE6F1CB981AA00F67209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AE6E1CB981AA00F67209 /* UIKit.framework */; };
+		1259AE771CB981AA00F67209 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1259AE761CB981AA00F67209 /* main.m */; };
+		1259AE7B1CB981AA00F67209 /* radioPiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1259AE7A1CB981AA00F67209 /* radioPiDelegate.m */; };
+		1259AE7E1CB981AA00F67209 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1259AE7C1CB981AA00F67209 /* Main_iPhone.storyboard */; };
+		1259AE841CB981AA00F67209 /* radioPiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1259AE831CB981AA00F67209 /* radioPiViewController.m */; };
+		1259AE861CB981AA00F67209 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1259AE851CB981AA00F67209 /* Images.xcassets */; };
+		1259AE8D1CB981AA00F67209 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AE8C1CB981AA00F67209 /* XCTest.framework */; };
+		1259AE8E1CB981AA00F67209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AE6A1CB981AA00F67209 /* Foundation.framework */; };
+		1259AE8F1CB981AA00F67209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AE6E1CB981AA00F67209 /* UIKit.framework */; };
+		1259AE991CB981AA00F67209 /* LLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1259AE981CB981AA00F67209 /* LLTests.m */; };
+		126637001DD50FB200399754 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 126636FF1DD50FB200399754 /* Play.png */; };
+		12902F731DFDE2DD00D89BE4 /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 12902F721DFDE2DD00D89BE4 /* Help.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1259AE901CB981AA00F67209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1259AE5F1CB981AA00F67209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1259AE661CB981AA00F67209;
+			remoteInfo = LL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120142211E04B5630065903E /* Retour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retour.png; sourceTree = "<group>"; };
+		1201424A1E05806B0065903E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		1256F1DE1DC5EF0900491C7A /* Vol+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vol+.png"; sourceTree = "<group>"; };
+		1256F1DF1DC5EF0900491C7A /* Vol-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vol-.png"; sourceTree = "<group>"; };
+		1256F1E41DC5EF2200491C7A /* ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ON.png; sourceTree = "<group>"; };
+		1256F1E61DC5EF2E00491C7A /* Radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radio.png; sourceTree = "<group>"; };
+		1259AE671CB981AA00F67209 /* RadioPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1259AE6A1CB981AA00F67209 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1259AE6C1CB981AA00F67209 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1259AE6E1CB981AA00F67209 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1259AE721CB981AA00F67209 /* LightOn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightOn-Info.plist"; sourceTree = "<group>"; };
+		1259AE761CB981AA00F67209 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1259AE781CB981AA00F67209 /* RadioPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadioPI-Prefix.pch"; sourceTree = "<group>"; };
+		1259AE791CB981AA00F67209 /* radioPiDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radioPiDelegate.h; sourceTree = "<group>"; };
+		1259AE7A1CB981AA00F67209 /* radioPiDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radioPiDelegate.m; sourceTree = "<group>"; };
+		1259AE7D1CB981AA00F67209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1259AE821CB981AA00F67209 /* radioPiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radioPiViewController.h; sourceTree = "<group>"; };
+		1259AE831CB981AA00F67209 /* radioPiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radioPiViewController.m; sourceTree = "<group>"; };
+		1259AE851CB981AA00F67209 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1259AE8B1CB981AA00F67209 /* RadioPI.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioPI.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1259AE8C1CB981AA00F67209 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1259AE941CB981AA00F67209 /* LightOnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightOnTests-Info.plist"; sourceTree = "<group>"; };
+		1259AE981CB981AA00F67209 /* LLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTests.m; sourceTree = "<group>"; };
+		126636FF1DD50FB200399754 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		12902F721DFDE2DD00D89BE4 /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1259AE641CB981AA00F67209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1259AE6D1CB981AA00F67209 /* CoreGraphics.framework in Frameworks */,
+				1259AE6F1CB981AA00F67209 /* UIKit.framework in Frameworks */,
+				1259AE6B1CB981AA00F67209 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1259AE881CB981AA00F67209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1259AE8D1CB981AA00F67209 /* XCTest.framework in Frameworks */,
+				1259AE8F1CB981AA00F67209 /* UIKit.framework in Frameworks */,
+				1259AE8E1CB981AA00F67209 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1259AE5E1CB981AA00F67209 = {
+			isa = PBXGroup;
+			children = (
+				1259AE701CB981AA00F67209 /* LL */,
+				1259AE921CB981AA00F67209 /* LLTests */,
+				1259AE691CB981AA00F67209 /* Frameworks */,
+				1259AE681CB981AA00F67209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1259AE681CB981AA00F67209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1259AE671CB981AA00F67209 /* RadioPI.app */,
+				1259AE8B1CB981AA00F67209 /* RadioPI.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1259AE691CB981AA00F67209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1259AE6A1CB981AA00F67209 /* Foundation.framework */,
+				1259AE6C1CB981AA00F67209 /* CoreGraphics.framework */,
+				1259AE6E1CB981AA00F67209 /* UIKit.framework */,
+				1259AE8C1CB981AA00F67209 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1259AE701CB981AA00F67209 /* LL */ = {
+			isa = PBXGroup;
+			children = (
+				1259AE791CB981AA00F67209 /* radioPiDelegate.h */,
+				1259AE7A1CB981AA00F67209 /* radioPiDelegate.m */,
+				1259AE7C1CB981AA00F67209 /* Main_iPhone.storyboard */,
+				1201424A1E05806B0065903E /* index.html */,
+				1259AE821CB981AA00F67209 /* radioPiViewController.h */,
+				1259AE831CB981AA00F67209 /* radioPiViewController.m */,
+				12902F721DFDE2DD00D89BE4 /* Help.png */,
+				120142211E04B5630065903E /* Retour.png */,
+				1256F1E41DC5EF2200491C7A /* ON.png */,
+				126636FF1DD50FB200399754 /* Play.png */,
+				1256F1DE1DC5EF0900491C7A /* Vol+.png */,
+				1256F1DF1DC5EF0900491C7A /* Vol-.png */,
+				1256F1E61DC5EF2E00491C7A /* Radio.png */,
+				1259AE851CB981AA00F67209 /* Images.xcassets */,
+				1259AE711CB981AA00F67209 /* Supporting Files */,
+			);
+			path = LL;
+			sourceTree = "<group>";
+		};
+		1259AE711CB981AA00F67209 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1259AE721CB981AA00F67209 /* LightOn-Info.plist */,
+				1259AE761CB981AA00F67209 /* main.m */,
+				1259AE781CB981AA00F67209 /* RadioPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1259AE921CB981AA00F67209 /* LLTests */ = {
+			isa = PBXGroup;
+			children = (
+				1259AE981CB981AA00F67209 /* LLTests.m */,
+				1259AE931CB981AA00F67209 /* Supporting Files */,
+			);
+			path = LLTests;
+			sourceTree = "<group>";
+		};
+		1259AE931CB981AA00F67209 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1259AE941CB981AA00F67209 /* LightOnTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1259AE661CB981AA00F67209 /* RadioPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1259AE9C1CB981AA00F67209 /* Build configuration list for PBXNativeTarget "RadioPI" */;
+			buildPhases = (
+				1259AE631CB981AA00F67209 /* Sources */,
+				1259AE641CB981AA00F67209 /* Frameworks */,
+				1259AE651CB981AA00F67209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioPI;
+			productName = LL;
+			productReference = 1259AE671CB981AA00F67209 /* RadioPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1259AE8A1CB981AA00F67209 /* RadioPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1259AE9F1CB981AA00F67209 /* Build configuration list for PBXNativeTarget "RadioPITests" */;
+			buildPhases = (
+				1259AE871CB981AA00F67209 /* Sources */,
+				1259AE881CB981AA00F67209 /* Frameworks */,
+				1259AE891CB981AA00F67209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1259AE911CB981AA00F67209 /* PBXTargetDependency */,
+			);
+			name = RadioPITests;
+			productName = LLTests;
+			productReference = 1259AE8B1CB981AA00F67209 /* RadioPI.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1259AE5F1CB981AA00F67209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LightOn;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Armand Hornik";
+				TargetAttributes = {
+					1259AE661CB981AA00F67209 = {
+						DevelopmentTeam = 56AB46NRLK;
+					};
+					1259AE8A1CB981AA00F67209 = {
+						TestTargetID = 1259AE661CB981AA00F67209;
+					};
+				};
+			};
+			buildConfigurationList = 1259AE621CB981AA00F67209 /* Build configuration list for PBXProject "RadioPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1259AE5E1CB981AA00F67209;
+			productRefGroup = 1259AE681CB981AA00F67209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1259AE661CB981AA00F67209 /* RadioPI */,
+				1259AE8A1CB981AA00F67209 /* RadioPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1259AE651CB981AA00F67209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1256F1E51DC5EF2200491C7A /* ON.png in Resources */,
+				126637001DD50FB200399754 /* Play.png in Resources */,
+				120142221E04B5640065903E /* Retour.png in Resources */,
+				1256F1E11DC5EF0900491C7A /* Vol+.png in Resources */,
+				1256F1E21DC5EF0900491C7A /* Vol-.png in Resources */,
+				1256F1E71DC5EF2E00491C7A /* Radio.png in Resources */,
+				1259AE861CB981AA00F67209 /* Images.xcassets in Resources */,
+				1259AE7E1CB981AA00F67209 /* Main_iPhone.storyboard in Resources */,
+				1201424B1E05806B0065903E /* index.html in Resources */,
+				12902F731DFDE2DD00D89BE4 /* Help.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1259AE891CB981AA00F67209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1259AE631CB981AA00F67209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1259AE841CB981AA00F67209 /* radioPiViewController.m in Sources */,
+				1259AE7B1CB981AA00F67209 /* radioPiDelegate.m in Sources */,
+				1259AE771CB981AA00F67209 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1259AE871CB981AA00F67209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1259AE991CB981AA00F67209 /* LLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1259AE911CB981AA00F67209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1259AE661CB981AA00F67209 /* RadioPI */;
+			targetProxy = 1259AE901CB981AA00F67209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1259AE7C1CB981AA00F67209 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1259AE7D1CB981AA00F67209 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1259AE9A1CB981AA00F67209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1259AE9B1CB981AA00F67209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1259AE9D1CB981AA00F67209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LL/RadioPI-Prefix.pch";
+				INFOPLIST_FILE = "LL/LightOn-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hornik.armand.RadioPI;
+				PRODUCT_NAME = RadioPI;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1259AE9E1CB981AA00F67209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LL/RadioPI-Prefix.pch";
+				INFOPLIST_FILE = "LL/LightOn-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hornik.armand.RadioPI;
+				PRODUCT_NAME = RadioPI;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1259AEA01CB981AA00F67209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LL.app/LL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LL/LL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LLTests/LightOnTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hornik.armand.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = RadioPI;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1259AEA11CB981AA00F67209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LL.app/LL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LL/LL-Prefix.pch";
+				INFOPLIST_FILE = "LLTests/LightOnTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hornik.armand.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = RadioPI;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1259AE621CB981AA00F67209 /* Build configuration list for PBXProject "RadioPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1259AE9A1CB981AA00F67209 /* Debug */,
+				1259AE9B1CB981AA00F67209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1259AE9C1CB981AA00F67209 /* Build configuration list for PBXNativeTarget "RadioPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1259AE9D1CB981AA00F67209 /* Debug */,
+				1259AE9E1CB981AA00F67209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1259AE9F1CB981AA00F67209 /* Build configuration list for PBXNativeTarget "RadioPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1259AEA01CB981AA00F67209 /* Debug */,
+				1259AEA11CB981AA00F67209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1259AE5F1CB981AA00F67209 /* Project object */;
+}

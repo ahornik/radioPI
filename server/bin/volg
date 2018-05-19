@@ -1,0 +1,5 @@
+#!/bin/bash
+
+typeset -i Vol
+Vol=`osascript -e 'set ovol to output volume of (get volume settings)' `
+echo vol://$Vol
